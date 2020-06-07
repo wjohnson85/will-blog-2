@@ -1,4 +1,4 @@
-title: Geekyll Starter Blog
+title: Will Johnson's Blog
 markdown: kramdown
 url: ""
 baseurl: "/geekyll-starter-blog"
@@ -6,10 +6,10 @@ baseurl: "/geekyll-starter-blog"
 # for atom feed
 author:
   name: Sharad Raj
-  email: iamsharadraj@gmail.com
-  image: "https://avatars1.githubusercontent.com/u/36638057?s=460&u=b7ea83b7f3172f4517c653cefd5d0713853561b2&v=4"
-  bio: Developed by <b>Sharad Raj</b> who lives in India building useful things for the world.
-  github: "sharadcodes"
+  email: hey@williamjohnson.dev
+  image: "https://avatars0.githubusercontent.com/u/40403549?s=460&u=0dd089a9c8a13b2e682277101fe6705978326cf7&v=4"
+  bio: Web Developer Sharing What I Learn With Others
+  twitter: "willjohnsonio"
 
 plugins:
   - jemoji
