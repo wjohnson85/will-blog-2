@@ -4,7 +4,7 @@ title: What Are Symbols in Ruby on Rails?
 date: 2020-03-20
 ---
 
-## What is a symbol in Ruby?
+What is a symbol in Ruby?
 
 The syntax for symbols is a colon then a word `:symbol`
 
