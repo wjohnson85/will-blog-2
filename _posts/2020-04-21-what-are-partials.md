@@ -26,3 +26,5 @@ To show your new partial in the views you want. Type the word **render** and the
 BOOM! Dino-DNA. 
 
 This a great feature in Rails to help keep your code clean and easy to navigate.
+
+
