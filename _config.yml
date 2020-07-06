@@ -1,14 +1,14 @@
 title: Will Johnson's Blog
 markdown: kramdown
 url: ""
-baseurl: "https://cranky-bell-6260f3.netlify.app/"
+baseurl: "https://williamjohnson.dev"
 
 # for atom feed
 author:
   name: Will Johnson
   email: hey@williamjohnson.dev
   image: "https://avatars0.githubusercontent.com/u/40403549?s=460&u=0dd089a9c8a13b2e682277101fe6705978326cf7&v=4"
-  bio: Web Developer Sharing What I Learn With Others
+  bio: Ruby On Rails Developer Sharing What I Learn
   twitter: "willjohnsonio"
 
 plugins:
