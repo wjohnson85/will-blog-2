@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add Real Time Chat To Rail with ActionCable
+title: Add Real Time Chat To Rails with ActionCable
 date:  2020-07-08
 ---
 
@@ -151,6 +151,7 @@ In this post you learned how to:
 * Mount the ActionCable route
 * Broadcast the channel 
 * Display messages in the browser using AJAX instead of HTTP POST
+* Use Active Record to connect the User and Message models
 
 
 
