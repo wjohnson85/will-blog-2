@@ -6,7 +6,7 @@ date:  2020-07-08
 
 ActionCable is feature of Ruby on Rails that brings in the usage of websockets. With it you can build cool things like real-time chat similar to discord and slack. You can also add "Who's online" notifications to show other users who is online at the same time as them.
 
-This post is using Rails 5.2 and assumes you have already created a Rails app with a User model. This is how to add ActionCable into an existing application.
+This post is using Rails 5.2 and assumes you have already created a Rails app with a User and Message models. This is how to add ActionCable into an existing application.
 
 
 ## Create and connect to a channel
@@ -120,6 +120,26 @@ In the views/chatroom.index.html.erb add remote: true to the form:
 ```erb
 <%= form_for(@message, url: message_path, remote: true) do |f| %>
 <%= f.text_field :body %>
+```
+
+## Assocaite Users with Messages
+
+Now we have to know that Rails can connect the logged user to their message. We do this by using ActiveRecord associations.
+
+In the message.rb file add:
+
+```ruby
+class Message < ApplicationRecord
+    belongs_to :user
+end
+```
+
+In the User.rb file add: 
+
+```ruby
+class User < ApplicationRecord
+    has_many :messages
+end
 ```
 
 ## Conculsion
