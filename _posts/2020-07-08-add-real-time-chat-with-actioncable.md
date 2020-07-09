@@ -82,7 +82,7 @@ ActionCable.server.broadcast takes in a ruby hash, that hash is received by the 
 
 ## Display messages in browser
 
-In onder to have the the content of mod_messgae display in the browser we can append it the DOM. In your views where you want the chat to be displyed add a div with id of "message-container" around your chat display. In this example I'll use app/views/chatroom/index.html.erb
+In order to have the the content of mod_message display in the browser we can append it to the DOM. In your views where you want the chat to be displayed, add a div with id of "message-container" around your chat display. In this example I'll use app/views/chatroom/index.html.erb
 
 
 ```html
@@ -113,7 +113,7 @@ The mod_message hash you added in the messages_controller is taken as a JavaScri
 
 ## Submit messages remotely
 
-By default Rails will send a HTTP POST request for the messages. That's not what we want for real-time chat we want to use AJAX and send the request remotely. To change this, the input form where we typing in the messgage needs to be updated.
+By default Rails will send a HTTP POST request for the messages. That's not what we want for real-time chat we want to use AJAX and send the request remotely. To change this, the input form where we typing in the message needs to be updated.
 
 In the views/chatroom.index.html.erb add remote: true to the form:
 
@@ -127,22 +127,21 @@ In the views/chatroom.index.html.erb add remote: true to the form:
 Now we have to know that Rails can connect the logged user to their message. We do this by using ActiveRecord associations.
 
 In the message.rb file add:
-
 ```ruby
 class Message < ApplicationRecord
     belongs_to :user
 end
 ```
 
-In the User.rb file add: 
 
+In the User.rb file add: 
 ```ruby
 class User < ApplicationRecord
     has_many :messages
 end
 ```
 
-## Conculsion
+## Conclusion
 
 In this post you learned how to:
 
