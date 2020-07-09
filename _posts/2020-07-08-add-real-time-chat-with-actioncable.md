@@ -122,7 +122,7 @@ In the views/chatroom.index.html.erb add remote: true to the form:
 <%= f.text_field :body %>
 ```
 
-## Assocaite Users with Messages
+## Associate Users with Messages
 
 Now we have to know that Rails can connect the logged user to their message. We do this by using ActiveRecord associations.
 
