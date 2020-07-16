@@ -38,7 +38,7 @@ Run a generate command create a new User model with the devise authentication de
 rails generate devise User
 ```
 
-This command creates a migration file, a User model file, test files, and adds devsie_for :user to routes.rb. Which includes all of the routes to use for Devise actions. To see all the new Devise routes in the terminal run "rails routes | grep users"
+This command creates a migration file, a User model file, test files, and adds devsie_for :user to routes.rb. Which includes all of the routes to use for Devise actions. To see all the new Devise routes in the terminal run `rails routes | grep users`
 
 Let's take a look at the User model this command created. Inisde of app/models/user.rb you'll see a model with a devise method with and a lot of defaults.
 
