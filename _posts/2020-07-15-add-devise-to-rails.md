@@ -4,8 +4,6 @@ title: Add Devise To Rails for User Authentication
 date:  2020-07-08
 ---
 
-## What is Devise?
-
 Devise is a Ruby Gem that is used for User Authentication in Rails Apps. It handles sign in, sign out, password security and more. You can create your own authentication system in Rails, but Devise is a trusted and powerful solution in the Rails community.
 
 ## Install and Set Up Devise
