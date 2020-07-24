@@ -56,7 +56,7 @@ The Category Model would ve connected the the author and the blog using the belo
 
 ```ruby
 # app/models/Author.rb
-class Category < ApplicationRecord
+class Author < ApplicationRecord
     has_many :categories
     has_many :blogs, through :categories
 end
