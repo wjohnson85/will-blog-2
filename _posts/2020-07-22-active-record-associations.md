@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Active Record Associations Basics
-date:  2020-07-15
+date:  2020-07-22
 ---
 
 Associations are the way you tell Rails how models are related to each other in the database. Think of a blog site, an author would have blog posts, comments, categories etc. Ruby on Rails makes it simple to link all of these models together using what looks like plain english.
