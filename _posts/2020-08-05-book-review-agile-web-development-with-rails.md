@@ -4,7 +4,7 @@ title: Book Review - Agile Web Development with Rails 6
 date:  2020-08-05
 ---
 
-![](/assets/book.jpg)
+![](/assets/img/book.jpg)
 
 Agile Web Development with Rails 6 is written by Sam Ruby, David Bryant Copeland and Dave Thomas with some some excerpts from DHH (The creator of Ruby on Rails).
 
