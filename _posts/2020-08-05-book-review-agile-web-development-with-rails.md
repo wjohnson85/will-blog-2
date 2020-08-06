@@ -51,11 +51,12 @@ One thing we didn't learn about in depth is Turbolinks. It's something I want to
 
 This is the section where every you just built gets broken down, now you have code to reference to put together with the explanations you're reading. Nothing is better than having something real and functioning to compare these explanations to. 
 
-This section focuses on the core of Rails Models, Views, Controllers and your database.
+This section focuses on the core of Rails Models, Views, Controllers and your database. It really goes DEEP into the core of Rails. It also references the the files you made when building the app in Part 2. One the things I liked in this sections was about writing "raw" SQL in your models, something I haven't seen mentioned any other tutorials. But have seen in a production Model. 
+
 
 ## Conclusion 
 
-I prefer watching videos but I wanted to try something different. If your are new to Rails I would recommend this book takes your time to digest it and take notes because it will feel like it's moving really fast. I think it does a good job of bringing everything home and not leaving in the dust.
+I prefer watching videos but I wanted to try something different. If your are new to Rails I would highly recommend this book. Takes your time to digest it and take notes because it will feel like it's moving really fast. I think it does a good job of bringing everything home and not leaving you in the dust. 
 
 Thank you for reading! 
 
