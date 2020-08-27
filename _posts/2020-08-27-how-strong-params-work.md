@@ -35,6 +35,6 @@ After setting up strong params you can now assign an instance variable inside th
 
 As of Rails 4 you are forced to use a strong params if you try to save an object to the database without you will get a `ActiveModel::ForbiddenAttributesError`
 
-That's is how strong parameters work and how they can protect your site from some malicious activity.
+That's how strong parameters work and how they can protect your site from some malicious activity.
 
 Thank you for reading.
