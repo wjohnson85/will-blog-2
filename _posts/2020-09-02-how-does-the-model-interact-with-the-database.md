@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How Does The Model Interact With The Database In Ruby on Rails
-date:  2020-08-27
+date:  2020-09-02
 ---
 
 You may understand that you can use a generator to create a Model. You also understand that the generator also creates a migration file with data attributes defined. 
