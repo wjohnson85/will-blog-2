@@ -48,4 +48,5 @@ Each page gets a URL
 
 "/users/1/edit" this is the pages to edit the user with the id of 1
 
-That's how you create a Ruby on Rails resource using scaffolding. Also, usually scaffolding is not used by developers in production apps. They usually make custom resouces on their own. Scaffolding is good for learning and get something running fast. 
+That's how you create a Ruby on Rails resource using scaffolding. Also, usually scaffolding is not used by developers in production apps. They usually make custom resources on their own. Scaffolding is good for learning and get something running fast. 
+
